@@ -1,0 +1,2 @@
+# AstroClicker
+Astronomically Inaccurate Incremential
