@@ -3,5 +3,16 @@
   <head>
     <title>We are so Kirk</title>
     <link rel="stylesheet" href="style.css">
+    <script>
+      let stardust = 0;
+      function addStardust() {
+        stardust += 1
+      }
+      document.getElementById("stardust").innerText=stardust;
+    </script>
   </head>
+  <body>
+    <button id="click" onclick = "addStardust()">Obtain Stardust</button>
+    <p>Stardust you have</p><p id="stardust"></p>
+  </body>
 </html>
