@@ -7,12 +7,12 @@
       let stardust = 0;
       function addStardust() {
         stardust += 1
+	      document.getElementById("stardustView").textContent=stardust;
       }
-      document.getElementById("stardust").innerText=stardust;
     </script>
   </head>
   <body>
     <button id="click" onclick = "addStardust()">Obtain Stardust</button>
-    <p>Stardust you have</p><p id="stardust"></p>
+    <p id="stardustView">0</p>
   </body>
 </html>
