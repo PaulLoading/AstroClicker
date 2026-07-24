@@ -3,26 +3,7 @@
   <head>
     <title>We are so Kirk</title>
     <link rel="stylesheet" href="style.css">
-    <script>
-      let stardust = 0;
-      let starLevel = 1
-      
-      function addStardust() {
-        stardust += starLevel
-	      document.getElementById("stardustView").textContent=stardust
-      }
-      
-      function levelUp() {
-        if (stardust >= 100) {//co the thay cai 100 thanh so khac, trung voi cai so o duoi cho stardust -= xxx
-          starLevel += 1
-          stardust -= 100
-          document.getElementById("stardustView").textContent=stardust
-          document.getElementById("SPS").textContent=starLevel
-        } else {
-          alert("Your stardusts aren't enough ngga")
-        }
-      }
-    </script>
+    <script src="script.js"></script>
   </head>
   <body>
 	<header>
